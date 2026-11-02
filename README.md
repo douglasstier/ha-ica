@@ -27,6 +27,12 @@ The integration authenticates with the `thSessionId` cookie from ica.se:
 
 Logging out on ica.se invalidates the cookie. Just log in again and paste the new one when the repair appears.
 
+## Sync with Google Keep or another list
+
+Want the ICA list in sync with Google Keep, Todoist or another to-do list? Use
+[Todo Sync](https://github.com/douglasstier/ha-todo-sync). It syncs open items both ways between any two Home Assistant
+to-do lists, without copying old checked-off history or creating duplicates.
+
 ## How it works
 
 | Step | Endpoint |
