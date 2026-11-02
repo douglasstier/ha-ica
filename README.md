@@ -36,3 +36,13 @@ Logging out on ica.se invalidates the cookie. Just log in again and paste the ne
 | Add item | `POST …/api/list/{list_id}/row` `{"text": "..."}` |
 | Check off / rename | `PUT …/api/row/{row_id}` (full row, `isStriked`) |
 | Delete item | `DELETE …/api/row/{row_id}` |
+
+## Credits
+
+Thanks to [mellamomax/ica_shopping](https://github.com/mellamomax/ica_shopping), which showed how the ICA shopping list
+API is authenticated. This integration is a separate implementation (native to-do entities, the new
+`apim-pub.gw.ica.se` API host).
+
+## License
+
+MIT, see [LICENSE](LICENSE).
