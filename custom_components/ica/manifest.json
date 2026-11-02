@@ -1,0 +1,14 @@
+{
+  "domain": "ica",
+  "name": "ICA Shopping Lists",
+  "codeowners": [
+    "@douglasstier"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/douglasstier/ha-ica",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.1.0",
+  "issue_tracker": "https://github.com/douglasstier/ha-ica/issues"
+}

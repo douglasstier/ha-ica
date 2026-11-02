@@ -1,0 +1,29 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ICA",
+        "description": "Log in on www.ica.se in a desktop browser, open developer tools (F12) → Application/Storage → Cookies → https://www.ica.se and copy the value of thSessionId.",
+        "data": {
+          "session_id": "thSessionId cookie"
+        }
+      },
+      "reauth_confirm": {
+        "title": "ICA session expired",
+        "description": "Your ICA login has expired. Log in on www.ica.se again and paste the new thSessionId cookie.",
+        "data": {
+          "session_id": "thSessionId cookie"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The cookie is not valid or not logged in.",
+      "cannot_connect": "Could not reach ica.se."
+    },
+    "abort": {
+      "already_configured": "This ICA account is already configured.",
+      "reauth_successful": "Re-authentication was successful.",
+      "wrong_account": "That cookie belongs to a different ICA account."
+    }
+  }
+}
